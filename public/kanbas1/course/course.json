@@ -1,0 +1,38 @@
+{
+  "_id": "123",
+  "number": "CS4550",
+  "name": "Web Development",
+  "term": "Fall",
+  "year": "2021",
+  "section": "12631",
+  "modules": [
+    {
+      "_id": "123",
+      "title": "Resources",
+      "items": [
+        {
+          "_id": "123",
+          "type": "LINK",
+          "text": "Syllabus",
+          "url": "https://docs.google.com/document/d/1nGMcyRG7kyKehCrVlyvsYXIQboepQwKo23tYoFgJlJU/edit?usp=sharing"
+        },
+        {
+          "_id": "234",
+          "type": "PAGE",
+          "text": "Undergraduate Calendar"
+        },
+        {
+          "_id": "345",
+          "type": "PAGE",
+          "text": "Graduate Calendar"
+        },
+        {
+          "_id": "456",
+          "type": "LINK",
+          "text": "Piazza",
+          "url": "https://piazza.com/class/lm1gi2uzv1x402"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+.wd-flex-row-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.wd-flex-grow-1 {
+  flex-grow: 1;
+}
+
+.wd-width-75px {
+  width: 75px;
+}
+
+.bg-color-yellow {
+  background-color: gold;
+}
+
+.bg-color-blue {
+  background-color: lightblue;
+}
+
+.bg-color-red {
+  background-color: lightcoral;
+}
