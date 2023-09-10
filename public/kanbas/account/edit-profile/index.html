@@ -1,7 +1,47 @@
+<link rel="stylesheet" href="/vendors/bootstrap/bootstrap.css" />
+<link rel="stylesheet" href="/vendors/font-awesome/css/font-awesome.css" />
+<link rel="stylesheet" href="/kanbas/navigation/index.css" />
 <table>
   <tr>
-    <td>Kanbas Navigation sidebar</td>
-    <td>Account Navigation sidebar</td>
+    <td>
+      <div class="wd-kanbas list-group wd-width-85px">
+        <a
+          href="https://www.northeastern.edu/"
+          class="list-group-item fs-1 text-danger"
+        >
+          N
+        </a>
+        <a href="/kanbas/account/profile" class="list-group-item active">
+          <i class="fa fa-user"></i><br />
+          Account
+        </a>
+        <a href="/kanbas/dashboard" class="list-group-item">
+          <i class="fa fa-dashboard"></i><br />
+          Dashboard</a
+        >
+        <a href="/kanbas/courses/home" class="list-group-item">
+          <i class="fa fa-book"></i><br />
+          Courses
+        </a>
+        <a href="#" class="list-group-item">
+          <i class="fa fa-calendar"></i><br />
+          Calendar
+        </a>
+      </div>
+    </td>
+    <td>
+      <ul>
+        <li>
+          <a href="/kanbas/account/notifications">Notifications</a>
+        </li>
+        <li>
+          <a href="/kanbas/account/profile">Profile</a>
+        </li>
+        <li>
+          <a href="/kanbas/account/settings">Settings</a>
+        </li>
+      </ul>
+    </td>
     <td>
       <h1>Edit Profile</h1>
       <form action="/kanbas/account/profile/index.html">
